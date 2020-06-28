@@ -1,6 +1,6 @@
 baseURL                          = "https://valdereuil-danse.netlify.app/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
-DefaultContentLanguage           = "en"                    # Default language for multilingual sites
+DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
 # googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
@@ -20,7 +20,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
 
-        localTime                = true                    # Show your current local time in contact section
+        # localTime                = true                    # Show your current local time in contact section
         timeZone                 = "Europe/Paris"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
     [params.projects]
@@ -73,7 +73,16 @@ DefaultContentLanguage           = "en"                    # Default language fo
 [taxonomies]
   tag = "tags"
 
-
+[languages]
+    [languages.fr]
+        languageName     = "Français"
+        languageCode     = "fr"
+        contentDir       = "content/fr"
+        weight           = 0
+        title            = "Introduction"
+        [languages.fr.params]
+            description  = "Website Description"   # Max 160 characters show in search results
+            footerText   = "Moderne Street Art est une association de danse sur la commune de Val De Reuil qui a pour but de promouvoir la danse dans toutes ses formes (stage, cours, exposition)."                      # Text to override default footer text (markdown allowed)
 
 # [languages]
 #     [languages.en]
