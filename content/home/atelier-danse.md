@@ -9,9 +9,9 @@ Nous proposons des cours de danse à partir de 4 ans sur la commune de VAL DE RE
 
 ### Features
 
-* éveil et initiation, 
-* street jazz/hip hop et
-* dans glamour en talons (street heels)
+* Eveil et initiation
+* Street jazz/hip hop
+* Danse glamour en talons (street heels)
 * [Planning des cours](https://adresslien)
 * [Toutes les infos sur notre page FB](https://adresslien) 
 * [Démos](https://adresslien) 

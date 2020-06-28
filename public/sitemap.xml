@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://valdereuil-danse.netlify.app/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://valdereuil-danse.netlify.app/tags/</loc>
   </url>
   
 </urlset>

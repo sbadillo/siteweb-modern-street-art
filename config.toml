@@ -10,7 +10,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "youremail@email.com"   # E-mail address for contact section
+    email                        = "modernestreet@gmail.com"   # E-mail address for contact section
     customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
     # Configure the home page
@@ -42,17 +42,17 @@ DefaultContentLanguage           = "en"                    # Default language fo
         #     icon  = "twitter" # icon name without the 'fa-'
         #     icon_pack = "fab"
     [[params.social]]
-        url   = "https://facebook.com/"
+        url   = "https://www.facebook.com/modernestreet/"
         # icon  = "facebook-f" # icon name without the 'fa-'
         # icon  = "fa-facebook-official" # icon name without the 'fa-'
         icon  = "facebook-square" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url   = "https://instagram.com/"
+        url   = "https://www.instagram.com/modernestreet/"
         icon  = "instagram" # icon name without the 'fa-'
         icon_pack = "fab"
     [[params.social]]
-        url = "mailto:youremail@email.com"  # For a direct email link, use "mailto:test@example.org".
+        url = "mailto:modernestreet@gmail.com"  # For a direct email link, use "mailto:test@example.org".
         icon = "paper-plane" # icon name without the 'fa-'
         icon_pack = "fas"
 
