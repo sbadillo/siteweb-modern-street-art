@@ -1,0 +1,14 @@
+.logo {
+    box-shadow: none;
+    border : none;
+}
+
+.title {
+    font-family: 'Parisienne Regular', cursive;
+    font-weight: 400;
+}
+
+/* make social icons a bit bigger */
+.fab {
+    font-size: 30px;
+}
