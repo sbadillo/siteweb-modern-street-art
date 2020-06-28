@@ -73,16 +73,16 @@ DefaultContentLanguage           = "fr"                    # Default language fo
 [taxonomies]
   tag = "tags"
 
-[languages]
-    [languages.fr]
-        languageName     = "Français"
-        languageCode     = "fr"
-        contentDir       = "content/fr"
-        weight           = 0
-        title            = "Introduction"
-        [languages.fr.params]
-            description  = "Website Description"   # Max 160 characters show in search results
-            footerText   = "Moderne Street Art est une association de danse sur la commune de Val De Reuil qui a pour but de promouvoir la danse dans toutes ses formes (stage, cours, exposition)."                      # Text to override default footer text (markdown allowed)
+# [languages]
+#     [languages.fr]
+#         languageName     = "Français"
+#         languageCode     = "fr"
+#         contentDir       = "content/fr"
+#         weight           = 0
+#         title            = "Introduction"
+#         [languages.fr.params]
+#             description  = "Website Description"   # Max 160 characters show in search results
+#             footerText   = "Moderne Street Art est une association de danse sur la commune de Val De Reuil qui a pour but de promouvoir la danse dans toutes ses formes (stage, cours, exposition)."                      # Text to override default footer text (markdown allowed)
 
 # [languages]
 #     [languages.en]
