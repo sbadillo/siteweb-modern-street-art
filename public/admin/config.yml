@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+
+# -- Collections 
+
+# When you create a Hugo site, the default content type is post. Writing “hugo new post blog-1” will create a new post for you, named “blog-1”. So let’s setup our first collection for the post type.
+
+collections:
+  - name: "home-section" # Used in routes, e.g., /admin/collections/blog
+    label: "home-section" # Used in the UI
+    folder: "content/home" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      # - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Order", name: "weight", widget: "number"}
+      - {label: "Image", name: "image", widget: "image", required : "false"}
