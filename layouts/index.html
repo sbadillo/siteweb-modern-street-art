@@ -164,6 +164,24 @@
         {{ $bundleMoment := slice $momentjs $momentTimezone $momentTimezoneWithData $initMomentjs | resources.Concat "js/bundleMoment.js" | fingerprint }}
         <script src="{{ $bundleMoment.Permalink }}" integrity="{{ $bundleMoment.Data.Integrity }}"></script>
         {{ end }}
+
+
+
+        <!-- Netlify cms : https://www.netlifycms.org/docs/add-to-your-site/ In order to complete the login and get back to the CMS, redirect the user back to the /admin/ path. -->
+        <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
+          <!-- End Netlify cms redirection. -->
+
+
     </body>
 
 </html>
