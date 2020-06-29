@@ -1,4 +1,4 @@
-baseURL                          = "https://valdereuil-danse.fr/"  # Your domain name. Must end with "/"
+baseURL                          = "https://www.valdereuil-danse.fr/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
 googleAnalytics                  = "UA-171133850-1"                       # https://gohugo.io/templates/internal/#google-analytics
