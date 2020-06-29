@@ -1,4 +1,4 @@
-baseURL                          = "http://valdereuil-danse.fr/"  # Your domain name. Must end with "/"
+baseURL                          = "https://valdereuil-danse.fr/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
 googleAnalytics                  = "UA-171133850-1"                       # https://gohugo.io/templates/internal/#google-analytics
@@ -14,7 +14,7 @@ googleAnalytics                  = "UA-171133850-1"                       # http
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
     email                        = "modernestreet@gmail.com"   # E-mail address for contact section
-    description  = "Website Description"   # Max 160 characters show in search results
+    description                  = "Website Description"   # Max 160 characters show in search results
     customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
     # Configure the home page
