@@ -3,19 +3,20 @@ theme                            = "introduction"
 DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
 googleAnalytics                  = "UA-171133850-1"                       # https://gohugo.io/templates/internal/#google-analytics
 
-# footerText   = "Moderne Street Art est une association de danse sur la commune de Val De Reuil qui a pour but de promouvoir la danse dans toutes ses formes (stage, cours, exposition)."                      # Text to override default footer text (markdown allowed)
 
 
 [params]
     themeStyle                   = "light"                 # Choose "light" or "dark"
-    favicon                      = "/img/fav.ico"          # Path to favicon file
     showRSSButton                = false                   # Show rss button in navigation
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "modernestreet@gmail.com"   # E-mail address for contact section
-    description                  = "Association de danse sur la commune de Val De Reuil qui a pour but de promouvoir la danse dans toutes ses formes (stage, cours, exposition ...)"   # Max 160 characters show in search results
     customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
+    
+    favicon                      = "/img/favicon.ico"          # Path to favicon file
+    email                        = "modernestreet@gmail.com"   # E-mail address for contact section
+    description                  = "Cours de danse moderne et street sur Val de reuil. Modern Street Art association de danse sur la commune de Val De Reuil. La danse dans toutes ses formes (stage, cours, exposition)"   # Max 160 characters show in search results
+    footerText                   = "-"                      # Text to override default footer text (markdown allowed)
 
     # Configure the home page
     [params.home]

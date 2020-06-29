@@ -1,10 +1,9 @@
 ---
-title: "Dernières Activités"
+title: "Actualités"
 weight: 4
 draft : false
-
 ---
 
-Suivez nous sur Facebook et Instagram pour les dernières nouvelles.
+Suivez-nous sur Facebook et Instagram.
 
 {{< instagram CB-_PwQgN6L hidecaption >}}
