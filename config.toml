@@ -1,7 +1,7 @@
-baseURL                          = "https://valdereuil-danse.netlify.app/"  # Your domain name. Must end with "/"
+baseURL                          = "http://valdereuil-danse.fr/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
-# googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
+googleAnalytics                  = "G-TWDG7MX8V9"                       # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
     themeStyle                   = "light"                 # Choose "light" or "dark"
