@@ -1,3 +1,4 @@
+Title                            = "Danse Val-de-Reuil - Moderne Street Art"
 baseURL                          = "https://www.valdereuil-danse.fr/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "fr"                    # Default language for multilingual sites
@@ -15,7 +16,7 @@ googleAnalytics                  = "UA-171133850-1"                       # http
     
     favicon                      = "/img/favicon.ico"          # Path to favicon file
     email                        = "modernestreet@gmail.com"   # E-mail address for contact section
-    description                  = "Cours de danse moderne et street sur Val de reuil. Modern Street Art association de danse sur la commune de Val De Reuil. La danse dans toutes ses formes (stage, cours, exposition)"   # Max 160 characters show in search results
+    description                  = "Cours de danse moderne et street sur Val de Reuil. Modern Street Art association de danse sur la commune de Val De Reuil. La danse dans toutes ses formes (stage, cours, exposition)"   # Max 160 characters show in search results
     footerText                   = "-"                      # Text to override default footer text (markdown allowed)
 
     # Configure the home page
