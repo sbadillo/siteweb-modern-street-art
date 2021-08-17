@@ -6,4 +6,4 @@ draft : false
 
 Suivez-nous sur Facebook et Instagram.
 
-{{< instagram CSrJ8WiM3PN >}}
+![programme](/static/programme_image.png)
