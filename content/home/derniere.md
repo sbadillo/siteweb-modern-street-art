@@ -6,4 +6,4 @@ draft : false
 
 Suivez-nous sur Facebook et Instagram.
 
-{{< instagram CSrJ8WiM3PN hidecaption >}}
+{{< instagram CSrJ8WiM3PN >}}
