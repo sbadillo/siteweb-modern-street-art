@@ -1,4 +1,4 @@
 
 [build]
   publish = "public"
-  command = "npm install -g postcss-cli && npm install -g autoprefixer && hugo --gc"
+  command = "npm install -g postcss-cli@7 && npm install -g autoprefixer@9 && hugo --gc"
